@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: apache-service
+    ports:
+      - "8081:80"
